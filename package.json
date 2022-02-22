@@ -1,0 +1,36 @@
+{
+  "name": "@dwlib/abstract",
+  "version": "1.0.0",
+  "description": "Abstract",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./lib/index.mjs"
+    },
+    "./*": {
+      "require": "./lib/*.js",
+      "import": "./lib/*.mjs"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwlib-js/abstract.git"
+  },
+  "keywords": [
+    "abstract"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwlib-js/abstract/issues"
+  },
+  "homepage": "https://github.com/dwlib-js/abstract#readme",
+  "dependencies": {
+    "@dwlib/primordials": "^1.0.1"
+  }
+}
