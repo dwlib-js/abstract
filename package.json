@@ -1,6 +1,6 @@
 {
   "name": "@dwlib/abstract",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Abstract",
   "main": "lib/index.js",
   "exports": {
