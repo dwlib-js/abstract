@@ -6,7 +6,7 @@
 ## Usage
 ```javascript
 // CJS
-const abstract = require('@dwlib/abstract');
+const Abstract = require('@dwlib/abstract');
 // ESM
-import * as abstract from '@dwlib/abstract';
+import * as Abstract from '@dwlib/abstract';
 ```
