@@ -1,10 +1,12 @@
 {
   "name": "@dwlib/abstract",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Abstract",
   "main": "lib/index.js",
   "imports": {
-    "#primordials": "@dwlib/primordials"
+    "#intrinsics/*": "@dwlib/intrinsics/abstract/*",
+    "#primordials/*": "@dwlib/primordials/*",
+    "#types/*": "@dwlib/types/*"
   },
   "exports": {
     ".": {
@@ -34,6 +36,8 @@
   },
   "homepage": "https://github.com/dwlib-js/abstract#readme",
   "dependencies": {
-    "@dwlib/primordials": "^1.0.1"
+    "@dwlib/intrinsics": "^1.0.3",
+    "@dwlib/primordials": "^1.0.3",
+    "@dwlib/types": "^1.0.1"
   }
 }
